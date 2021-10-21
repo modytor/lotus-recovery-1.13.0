@@ -24,8 +24,10 @@ cd ${lotus-recovery-1.13.0_path}
 make lotus-bench
 ```
 ```
-./lotus-bench recovery --storage-dir=/mnt/ssdb/tmp --sector-size=32GiB --miner-id=t015930 --sector-id=0 --ticket=6bdb4f1ec57879f158c487f9e81c0691fcb219a160ac229393cd61a6754832af
+./lotus-bench recovery --storage-dir=/mnt/ssdb/tmp --sector-size=32GiB --miner-id=t015930 --sector-id=0 --ticket6bdb4f1ec57879f158c487f9e81c0691fcb219a160ac229393cd61a6754832af
 ```
+上面ticket参数可使用lotus-miner sectors status --log ${sector-id}来获取
+
 ## Building & Documentation
 
 > Note: The default `master` branch is the dev branch, please use with caution. For the latest stable version, checkout the most recent [`Latest release`](https://github.com/filecoin-project/lotus/releases).
