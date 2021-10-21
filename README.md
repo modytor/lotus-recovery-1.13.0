@@ -15,6 +15,10 @@
 </p>
 
 Lotus is an implementation of the Filecoin Distributed Storage Network. For more details about Filecoin, check out the [Filecoin Spec](https://spec.filecoin.io).
+##使用方式
+cd ${lotus-recovery-1.13.0_path}
+make lotus-bench
+./lotus-bench recovery --storage-dir=/mnt/ssdb/tmp --sector-size=32GiB --miner-id=t015930 --sector-id=0 --ticket=6bdb4f1ec57879f158c487f9e81c0691fcb219a160ac229393cd61a6754832af
 
 ## Building & Documentation
 
